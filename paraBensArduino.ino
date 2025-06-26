@@ -1,8 +1,5 @@
 /* 
-  Happy Birthday
-  Conecte um buzzer piezo ou alto-falante ao pino 7 (ou o que preferir).
-  LEDs nos pinos 11, 10 e 9 acendem alternadamente para cada nota.
-                                              
+  Happy Birthday                              
                                               Robson Couto, 2019 + sua modificação
 */
 #define NOTE_B0  31
@@ -123,7 +120,6 @@ void setup() {
   pinMode(lad2, OUTPUT);
   pinMode(lad3, OUTPUT);
 
-  // Você pode adicionar mais LEDs e alterar a lógica abaixo conforme quiser!
   int leds[] = {lad1, lad2, lad3};
   int numLeds = 3;
 
